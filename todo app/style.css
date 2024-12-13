@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+body{
+    padding: 100px;
+    background: linear-gradient(90deg, skyblue, green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+.todoapp{
+    background: #fff;
+    width: 400px;
+    height: fit-content;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 30px;
+
+}
+h1{
+    color: rgb(48, 165, 42);
+    font-family: "Press Start 2P", "sans-serif";
+    font-size: 20px;
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: darkcyan;
+    border-radius: 10px;
+    padding: 5px;
+    height: 40px;
+    display: flex;
+    flex-direction: 1 column;
+    justify-content: space-between;
+}
+#input-box{
+    height: 35px;
+    outline: none;
+    border: none;
+    background: #ffffff00;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 15px;
+    
+}
+#input-box::placeholder{
+    color: #fff;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: 1  column;
+   justify-content: space-between; 
+}
+span {
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+
